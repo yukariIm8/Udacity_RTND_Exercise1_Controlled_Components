@@ -20,10 +20,10 @@ class App extends Component {
         </header>
         <div className="container">
           <input 
-    		type="text" 
-    		placeholder="Say Something" 
-    		value={this.state.value}
-			onChange={this.handleChange}
+            type="text" 
+            placeholder="Say Something" 
+            value={this.state.value}
+            onChange={this.handleChange}
     	  />
           <p className="echo">Echo:</p>
           <p>{this.state.value}</p>
